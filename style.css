@@ -81,4 +81,7 @@ section{
     border-image: linear-gradient(#190bdb, #95bee4) 30;
     border-image-slice: 1;
 }
+footer p{
+    text-align: center;
+    margin: 40px;
 }
