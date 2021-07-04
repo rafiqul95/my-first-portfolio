@@ -1,18 +1,25 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
     margin: 0;
+
 }
 h1{
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
 }
+h2{
+    font-size: 35px;
+}
 .orange-color{
     color: orange;
 }
-p{
-    margin-bottom: 5px;
+
 }
 section{
+    display: flex;
+}
+.flexible-container{
     display: flex;
 }
 .half-width{
@@ -43,6 +50,23 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-   
+}
+.experiences-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
     
+    display: block;
+    
+    margin-bottom: 20px;
+    
+}
+.experiences-area h1{
+    margin: 5%;
+}
+.exprerience-item{
+    padding: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
 }
